@@ -1,11 +1,18 @@
 body {
 	margin: 0px;
 	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 
 h1 {
-	width: 10%;
+	width: 40%;
 	margin: 0 auto 0 auto;
+	font-size: 72px;
+	font-family: 'Sacramento', cursive;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .top-container {
@@ -15,15 +22,17 @@ h1 {
 }
 
 .middle-container {
-	background-color: red;
-	width: 200px;
-	height:  200px;
+	margin-top: 50px;
+	
 }
 
 .bottom-container {
-	background-color: blue;
+	
+}
+
+.portrait {
 	width: 200px;
-	height:  200px;
+	height: 200px;
 }
 
 .top-cloud-img {
@@ -45,4 +54,24 @@ h1 {
 
 .mountain-img {
 	margin-bottom: 0px;
+}
+
+.programming-icon {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+
+.design-icon {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
 }
